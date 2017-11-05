@@ -12,6 +12,6 @@ This program demonstrates a simple buffer overflow attack
 	* 	PAD_AMOUNT (optional) - The number of bytes needed before the target address
 	*	optionally add > outfile to redirect the output to a file
 	
-	...This will output the attack string in the format AAAA...AAAA<LITTLE_ENDIAN_ADDRESS_IN_ASCII>
+	This will output the attack string in the format AAAA...AAAA<LITTLE_ENDIAN_ADDRESS_IN_ASCII>
 
 4. Run `./vuln_program < <GENERATED_ATTACK_STRING>`. If everything went right this should overflow the buffer and call the target function printing "Haha! You got pwned!"
