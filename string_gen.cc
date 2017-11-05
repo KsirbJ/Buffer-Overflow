@@ -30,11 +30,8 @@ int main(int argc, char const *argv[]){
 	    lil_endian_ascii[x] = chr;
 	}
 
+	// print attack string
 	cout <<  pad << lil_endian_ascii << endl;
-	
-	// for(int i = 0; i < 4; ++i){
-	// 	printf("%x", lil_endian_ascii[i]);
-	// }
 
 	return 0;
 }
